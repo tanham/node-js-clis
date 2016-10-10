@@ -3,10 +3,10 @@
 require('./helper')
 let fs = require('fs').promise
 
-function* echo() {
-    // Use 'yield' in here
+async function echo() {
+    // Use 'await' in here
     // Your implementation here
-    console.log(yield fs.readFile(__filename, console.log))
+    console.log(await fs.readFile(__filename, console.log))
 }
 
-module.exports = echo
+echo()
