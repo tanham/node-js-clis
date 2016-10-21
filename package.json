@@ -28,6 +28,16 @@
     "songbird": "^1.0.4",
     "trycatch": "^1.5.21"
   },
+  "scripts": {
+        "cli:echo": "node echo.js",
+        "cli:cat": "node cat.js",
+        "cli:ln": "node ln.js",
+        "cli:ls": "node ls.js",
+        "cli:mkdir": "node mkdir.js",
+        "cli:rm": "node rm.js",
+        "cli:touch": "node touch.js",
+        "cli:grep": "node grep.js"
+  },
   "devDependencies": {
     "rimraf": "^2.5.4",
     "babel-eslint": "^7.0.0",
